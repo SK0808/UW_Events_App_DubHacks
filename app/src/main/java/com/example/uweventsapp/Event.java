@@ -8,6 +8,7 @@ public class Event {
     private String Time;
     private String Description;
 
+    // event class that stores the information that will be gathered for each event
     public Event(String name, String sub, String date, String loc, String time, String des) {
         Name = name;
         Subject = sub;
